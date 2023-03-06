@@ -1,0 +1,14 @@
+#videosList {
+	width: 100%;
+	overflow: hidden;
+}
+
+.video {
+	width: 100%;
+}
+
+#services {
+	background: linear-gradient(rgb(107, 29, 217), rgb(179, 74, 248));
+}
+
+

@@ -1,0 +1,47 @@
+/* Zoo heading */
+#zoohead h1{
+    font-size: 60px;
+    color: white;
+}
+#zoohead p{
+    font-size: 25px;
+    color: white;
+}
+/* zoo info */
+#zoohead{
+    font-family: sans-serif;
+}
+#zooinfo{
+    font-family: sans-serif;
+}
+/* Zoo timing */
+#zooinfo h1,#zootime{
+    background: linear-gradient(rgb(90, 0, 215), rgb(131, 42, 255));
+    text-align: center;
+}
+#zootime h1{
+    color: white;
+    padding: 20px;
+}
+#zootime1{
+    text-align: center;
+}
+
+#book-ticket{
+	background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+  }
+  #book-ticket:hover{
+	background-color: rgb(161, 68, 255);
+    color: white;
+    text-decoration: none;
+    border: none;
+  }
+
+  #head{
+	background: linear-gradient(rgb(107, 29, 217), rgb(179, 74, 248));
+  }
+
+

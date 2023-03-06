@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MERCIADO MINI ZOO</title>
+  <link rel="stylesheet" href="mediaquery.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/04a8ab86db.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" type="image/x-icon" href="../images/logo.png">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="E-Project 1/style.css">
+  <link rel="stylesheet" href="minizoo.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-sm fixed-top" data-aos="fade-up"
+    style="font-family: 'Kanit', sans-serif;">
+    <div class="container-fluid">
+      <a id="logo" class="navbar-brand text-white" href="index.html"><img src="/images/logo.png" alt=""></a>
+      <button id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span id="hamburger" class="navbar-toggler-icon"></span>
+      </button>
+      <div id="form1" class="col-7">
+        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"
+          placeholder="search ">
+      </div>
+      <div class="d-sm-none me-auto">
+        <i id="icon" class="fa-solid fa-magnifying-glass ms-3"></i>
+      </div>
+
+      <div id="smallform" class="d-sm-none col-7">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+
+      <a id="smallcancel" class="border-0 d-sm-none"
+        style="text-decoration: none; color: rgb(143, 143, 143); font-size: 15px; cursor: pointer;">Cancel</a>
+
+      <a id="logo2" class="navbar-brand text-white justify-content-center" href="index.html"><img src="/images/logo.png"
+          alt=""></a>
+
+
+      <a href="account.html"><i id="iconn" class="fa-solid fa-user d-sm-none float-sm-end"></i></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="ul" class="navbar-nav mb-lg-0 d-flex mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b> Parks and Zoo</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Park and zoo/Family park.html">Family Park</a></li>
+              <li><a class="dropdown-item" href="file/minizoo.html">Mini Zoo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>Hotels</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="hotels.html">Extended Stay Hotels</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b> Shopping</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="mens fashion/index.html">Ideal Mens Clothing</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="womens clothing/index.html">Gem Women Clothing</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b> Entertainment</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="ENTERTAINMENT/cinemas.html">Cinemas</a></li>
+              <li>
+                <a class="dropdown-item" href="ENTERTAINMENT/gaming.html">3D Gaming Zone</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="ENTERTAINMENT/restaurant.html">Dinning & Resturaunts</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-sm-block ps-5">
+        <a href="account.html"><i id="icon1" class="fa-solid fa-user me-1"></i></a>
+        <i id="icon2" class="fa-solid fa-magnifying-glass me-1"></i>
+      </div>
+
+      <div id="largeform" class=" col-7 justify-content-center">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <a id="largecancel" class="border-0 "
+        style="text-decoration: none; color: rgb(143, 143, 143); font-size: 15px; cursor: pointer;">Cancel</a>
+
+
+    </div>
+    </div>
+  </nav>
+
+  <!-- heading -->
+  <div class="carousel-inner" data-aos="fade-up">
+    <div class="carousel-item active">
+      <br>
+      <br>
+      <img src="mini zoo img/zoo5.jpg" class="d-block w-100" alt="..." height="650px">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 170px;" id="zoohead">
+        <h1 style="font-family: 'Kanit', sans-serif;">Mini Zoo</h1>
+        <p style="font-family: 'Kanit', sans-serif;">A Mini Zoo is a place where animals live in captivity and are put
+          on display for people to view.</p>
+      </div>
+      <div class="carousel-caption d-block d-sm-none" id="zoohead">
+        <h1>Mini Zoo</h1>
+        <p>A Mini Zoo is a place where animals live in captivity and are put on display for people to view.</p>
+      </div>
+      <div class="carousel-caption d-none d-sm-block d-md-none" style="bottom: 80px; right: 300px;" id="zoohead">
+        <h1>Mini Zoo</h1>
+        <p>A Mini Zoo is a place where animals live in captivity and are put on display for people to view.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zoo info -->
+  <div class="container-fluid h-auto" style="font-family: 'Kanit', sans-serif">
+    <div class="container-fluid">
+      <div class="d-lg-flex justify-content-between">
+        <div class="row py-5" data-aos="fade-down">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="mini zoo img/zoo14.jpg" width="100%" height="450px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="mini zoo img/zoo13.jpg" width="100%" height="450px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="mini zoo img/zoo7.jpg" width="100%" height="450px" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div id="zooinfo" class="col-lg-6 mt-lg-5 h-50 ms-lg-5 text-center" data-aos="fade-up">
+          <h1 id="h2" class="text-white py-3" style="font-family: 'Kanit', sans-serif;">Dream Mini Zoo</h1>
+          <br>
+          <h4 class="py-2" style="font-family: 'Kanit', sans-serif;">
+            Dream mini zoo is a small-scale zoo that features a limited number of animals and exhibits, typically
+            designed for children and families to enjoy. Mini zoos usually have a focus on providing an educational
+            experience, allowing visitors to learn about different types of animals and their habitats in a fun and
+            interactive way.
+          </h4>
+          <a href="Gallery/Galleryminizoo.html"><button style="font-family: 'Kanit', sans-serif;" id="btn"
+              type="button" class="btn btn-primary mb-5">View Gallery</button></a>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--mini zoo Timing -->
+  <div id="zootime" style="font-family: 'Kanit', sans-serif;" data-aos="fade-up">
+    <h1>Timing</h1>
+  </div>
+  <br>
+  <div class="container" id="zootime1" style="font-family: 'Kanit', sans-serif;" data-aos="fade-up">
+    <div class="row pt-5">
+      <div class="col-lg-6 col-sm-12">
+        <h2>Opening At</h2>
+        <h3>8AM</h3>
+        <br>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <h2>Closing At</h2>
+        <h3>5PM to 6PM</h3>
+      </div>
+    </div>
+  </div>
+  <!-- TICKETING -->
+  <div class="container-fluid pt-5" style="font-family: 'Kanit', sans-serif;" data-aos="fade-up">
+    <div id="ticket" class="row mt-5 text-center">
+      <h1 id="head" class="text-white mt-5 py-3">Dream Mini Zoo Ticket Booking</h1>
+      <div class="ticket-booking">
+        <h1>Select Ticket Type</h1>
+        <form>
+          <input type="radio" id="adult-ticket" name="ticket-type" value="adult">
+          <label for="adult-ticket">Adult Ticket ($20)</label><br>
+          <input type="radio" id="child-ticket" name="ticket-type" value="child">
+          <label for="child-ticket">Child Ticket ($10)</label><br>
+          <input type="radio" id="senior-ticket" name="ticket-type" value="senior">
+          <label for="senior-ticket">Senior Ticket ($15)</label><br>
+        </form>
+        <h1>Number of Tickets</h1>
+        <form>
+          <input type="number" id="ticket-quantity" min="1">
+        </form>
+        <br>
+        <button id="book-ticket">Book Ticket</button>
+        <h2>Ticket Price: $<span id="price">0</span></h2>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="padding_4x mt-5"
+    style="font-family: 'Kanit', sans-serif;  background: linear-gradient(rgb(90, 0, 215), rgb(131, 42, 255));">
+    <div class="flex">
+      <section class="flex-content padding_1x" data-aos="fade-up">
+        <h3>Top Services</h3>
+        <a href="mens fashion/index.html">Ideal mens clothing</a>
+        <a href="ENTERTAINMENT/cinemas.html">Cinemas</a>
+        <a href="ENTERTAINMENT/restaurant.html">Resturaunts</a>
+        <a href="ENTERTAINMENT/gaming.html">3D Gaming zones</a>
+      </section>
+      <section class="flex-content padding_1x" data-aos="fade-up">
+        <h3>Quick Book</h3>
+        <a href="waterpark.html">Water parks booking</a>
+        <a href="Park and zoo/Family park.html">Family parks booking</a>
+        <a href="hotels.html">Extended stay booking</a>
+        <a href="minizoo.html">Mini zoo</a>
+      </section>
+
+      <section class="flex-content padding_1x" data-aos="fade-up">
+        <h3>Contact us</h3>
+        <a href="account.html">Guides</a>
+        <a href="account.html">Mail</a>
+        <a href="account.html">Roadmap</a>
+        <a href="account.html">Call us</a>
+      </section>
+      <section class="flex-content padding_1x" data-aos="fade-up">
+        <h3>Email us</h3>
+        <p>You can trust us. we only send promo offers</p>
+        <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+        <br>
+        <button class="col-12" id="btns">Subscribe</button>
+    </div>
+    </fieldset>
+    </section>
+    </div>
+    <div class="flex">
+      <section class="flex-content padding_1x" data-aos="fade-up">
+        <p>Copyright ©2023 All rights reserved || Merciado Amusement Park</p>
+      </section>
+      <section class="flex-content padding_1x" data-aos="fade-up">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter"></i></a>
+        <a href="https://dribbble.com/tags/login"><i class="fa fa-dribbble"></i></a>
+        <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a>
+      </section>
+    </div>
+  </footer>
+
+
+
+  <!-- JQUERY SCRIPT -->
+  <script>
+    $(document).ready(function () {
+      $("#smallform").hide()
+      $("#smallcancel").hide()
+      $("#icon").click(function () {
+        $("#smallform").show()
+        $("#smallcancel").show()
+        $("#iconn").hide()
+        $("#logo2").hide()
+        $("#icon").hide()
+      });
+    });
+
+    $(document).ready(function () {
+
+      $("#smallcancel").click(function () {
+        $("#smallform").hide()
+        $("#iconn").show()
+        $("#logo2").show()
+        $("#icon").show()
+        $("#smallcancel").hide()
+      });
+    });
+    $(document).ready(function () {
+      $("#largeform").hide()
+      $("#largecancel").hide()
+      $("#icon2").click(function () {
+        $("#icon1").hide()
+        $("#icon2").hide()
+        $("li").hide()
+        $("#largeform").show()
+        $("#largecancel").show()
+
+      });
+    });
+
+    $(document).ready(function () {
+
+      $("#largecancel").click(function () {
+        $("#icon1").show()
+        $("#icon2").show()
+        $("li").show()
+        $("#largeform").hide()
+        $("#largecancel").hide()
+
+      });
+    });
+  </script>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+
+    AOS.init();
+
+    // You can also pass an optional settings object
+    // below listed default settings
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
+
+
+</body>
+
+</html>
+</body>
+
+</html>

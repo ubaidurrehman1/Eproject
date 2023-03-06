@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+#ul li a:hover {
+    color: rgb(29, 164, 241) !important;
+}
+
+
+#navbar {
+    background: linear-gradient(rgb(90, 0, 215), rgb(131, 42, 255));
+}
+
+.dropdown-menu {
+    background: linear-gradient(rgb(90, 0, 215), rgb(131, 42, 255));
+}
+
+.dropdown-item {
+    background: linear-gradient(rgb(90, 0, 215), rgb(131, 42, 255));
+}
+
+#ul li a {
+    color: white !important;
+}
+
+#icon1,
+#icon2,
+#iconn,
+#icon {
+    color: white;
+    cursor: pointer;
+}
+
+#hamburger {
+    background-color: white;
+}
+
+#timer {
+    margin-top: -300px;
+}
+
+#merciado {
+    background: linear-gradient(rgb(107, 29, 217), rgb(179, 74, 248));
+    box-shadow: 10px 10px 5px rgb(189, 187, 187);
+    border-radius: 7px;
+}
+
+#material {
+    box-shadow: 5px 10px 10px rgb(189, 187, 187);
+    border-radius: 7px;
+}
+
+#box {
+    background-color: rgb(214, 81, 247);
+    background-image: url("kids4.webp") fixed;
+    background-size: cover;
+}
+
+#material {
+    width: 50%;
+}
+
+#btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
+
+#btns {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    height: 40px;
+}
+
+#btn:hover {
+    background-color: rgb(161, 68, 255);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+#btns:hover {
+    background-color: rgb(161, 68, 255);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 10px 10px rgb(189, 187, 187);
+    border-radius: 7px;
+}
+
+#counter {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.but:hover{
+  color: white;
+}
+
+
+#waterpark {
+    box-shadow: 5px 5px 10px rgb(189, 187, 187);
+    border-radius: 7px;
+}
+
+:root {
+    --white: #FFF;
+    --black: #000;
+    --dark: #1E1E1E;
+    --gray: rgba(1, 1, 1, 0.6);
+    --lite: rgba(255, 255, 255, 0.6);
+    --primary: #002347;
+    --secondary: rgb(203, 92, 255);
+    ;
+}
+
+
+/***************************
+            DEFAULT
+****************************/
+body {
+    margin: 0;
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    min-width: fit-content;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+}
+
+a,
+button {
+    transition: 0.5s;
+}
+
+a,
+p {
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+    outline: none !important;
+}
+
+
+
+.title {
+    color: var(--primary);
+}
+
+.flex,
+.fixed_flex {
+    display: flex;
+}
+
+.flex-content {
+    width: 100%;
+    position: relative;
+}
+
+.padding_1x {
+    padding: 1rem;
+}
+
+.padding_2x {
+    padding: 2rem;
+}
+
+.padding_3x {
+    padding: 3rem;
+}
+
+.padding_4x {
+    padding: 4rem;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn_1 {
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.btn_1:hover {
+    color: rgb(29, 164, 241) !important;
+    color: var(--primary);
+}
+
+.btn_2 {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.btn_2:hover {
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+
+/***************************
+               FOOTER
+****************************/
+footer {
+    background-color: var(--primary);
+    color: var(--lite);
+}
+
+footer h3 {
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+footer a {
+    color: var(--lite);
+    display: block;
+    margin: 15px 0;
+}
+
+footer a:hover {
+    color: rgb(29, 164, 241) !important;
+}
+
+footer fieldset {
+    padding: 0;
+}
+
+footer fieldset input {
+    background-color: #334f6c;
+    border: 0;
+    color: var(--lite);
+    padding: 1rem;
+}
+
+footer fieldset .btn {
+    border-radius: 0;
+    border: 0;
+}
+
+footer fieldset .btn_2:hover {
+    background-color: var(--secondary);
+    border: 0;
+    color: rgb(29, 164, 241) !important;
+
+}
+
+footer .flex:last-child {
+    align-items: center;
+}
+
+footer .flex:last-child .flex-content:last-child {
+    text-align: right;
+}
+
+footer .flex:last-child p {
+    color: var(--white);
+}
+
+footer .flex:last-child a {
+    width: 40px;
+    display: inline-block;
+    background-color: #334f6c;
+    color: var(--white);
+    padding: 0.5rem;
+    margin-right: 3px;
+    text-align: center;
+}
+
+footer .flex:last-child a:hover {
+    background-color: var(--secondary);
+    color: rgb(29, 164, 241) !important;
+
+}
+
+#bg4 {
+    background: linear-gradient(0, 0, 0, 0.7);
+    background-size: cover;
+}
+
+
+#crsl-img {
+    filter: brightness(45%);
+}
+
+#cine {
+    filter: brightness(45%);
+}
+
+/* shows */
+
+  h1 {
+    font-size: 2.2em;
+  }
+  .flip {
+    position: relative;
+  }
+  .flip > .front, .flip > .back {
+    display: block;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1.5s;
+    transition-property: transform, opacity;
+  }
+  .flip > .front {
+    transform: rotateY(0deg);
+  }
+  .flip > .back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-180deg);
+  }
+  .flip:hover > .front {
+    transform: rotateY(180deg);
+  }
+  .flip:hover > .back {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+  .flip.flip-vertical > .back {
+    transform: rotateX(-180deg);
+  }
+  .flip.flip-vertical:hover > .front {
+    transform: rotateX(180deg);
+  }
+  .flip.flip-vertical:hover > .back {
+    transform: rotateX(0deg);
+  }
+  .flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 400px;
+  }
+  .flip > .front, .flip > .back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 220px;
+    padding: 1em 2em;
+    background: #313131;
+    border-radius: 10px;
+  }
+  .flip > .front p, .flip > .back p {
+    font-size: 0.9125rem;
+    line-height: 160%;
+    color: #999;
+  }
+  .text-shadow {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+  }
+
+  @media (min-width:768px) and (max-width:991px) {
+    #cardIII{
+        margin-top: 50px !important;
+    }
+  }
+  @media (min-width:1152px) and (max-width:1400px) {
+    #card4{
+        margin-top: 50px !important;
+    }
+  }
+  @media (max-width:768px) {
+    #cardss{
+       justify-content: center !important;
+    }
+  }
+  
+  @media(max-width:767px) {
+    #cardII{
+        margin-top: 50px !important;
+    }
+    #cardIII{
+        margin-top: 50px !important;
+    }
+  }
+  

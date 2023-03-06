@@ -1,0 +1,112 @@
+h1, .counter{
+	font-size: 50px;
+}
+#h2{
+	font-size: 37px;
+	background: linear-gradient(rgb(107, 29, 217), rgb(179, 74, 248));
+}
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .ticket-booking {
+	border: 0px solid #ccc;
+	background-size: cover;
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .ticket-price {
+	font-size: 18px;
+	font-weight: bold;
+  }
+
+  #ticket{
+	box-shadow: 5px 10px 10px rgb(189, 187, 187);
+    border-radius: 7px;
+  }
+  
+  #head{
+	background: linear-gradient(rgb(107, 29, 217), rgb(179, 74, 248));
+  }
+
+  #book-ticket{
+	background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+  }
+  #book-ticket:hover{
+	background-color: rgb(161, 68, 255);
+    color: white;
+    text-decoration: none;
+    border: none;
+  }
+
+  .box {
+	display: flex;
+}
+
+.box .inner {
+	width: 400px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: rgb(161, 68, 255);
+	color: darkred;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: rgb(161, 68, 255);
+	color: rgb(255, 255, 255);
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+
+.counter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .counter-title {
+	font-size: 50px;
+	margin-bottom: 20px;
+  }
+  
+  .counter-value {
+	font-size: 48px;
+	font-weight: bolder;
+  }
+  
